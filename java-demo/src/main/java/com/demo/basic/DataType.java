@@ -55,5 +55,15 @@ public class DataType {
         // 以数值形式而不是字符形式将Character.MAX_VALUE输出到控制台
         System.out.println("最大值：Character.MAX_VALUE="
                 + (int) Character.MAX_VALUE);
+
+
+        long num = 100;
+        System.out.println(num + 2); // 102
+
+        int n = 2147483647;
+
+        System.out.println(n+=2);
+
+
     }
 }
