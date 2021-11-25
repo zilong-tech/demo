@@ -1,4 +1,4 @@
-package com.demo.designMode.MediatorPattern;
+package com.demo.designMode.mediatorpattern1;
 
 /**
  * 具体同事2
