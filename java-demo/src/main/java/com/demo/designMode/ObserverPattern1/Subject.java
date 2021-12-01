@@ -1,4 +1,5 @@
-package com.demo.designMode.ObserverPattern;
+package com.demo.designMode.ObserverPattern1;
+
 
 import java.util.ArrayList;
 import java.util.List;

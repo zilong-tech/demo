@@ -1,4 +1,4 @@
-package com.demo.designMode.ObserverPattern;
+package com.demo.designMode.ObserverPattern1;
 
 /**
  * 具体被观察者
