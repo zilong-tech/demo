@@ -1,7 +1,6 @@
 package com.demo.designMode.ObserverPattern2;
 
 /**
- * @author zys
  * @version 1.0.0
  * @date 2021/12/01 18:34
  */
