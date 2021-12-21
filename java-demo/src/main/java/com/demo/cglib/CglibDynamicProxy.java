@@ -1,5 +1,6 @@
 package com.demo.cglib;
 
+import net.sf.cglib.core.DebuggingClassWriter;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
@@ -61,6 +62,9 @@ public class CglibDynamicProxy implements MethodInterceptor {
 
 
     public static void main(String[] args) {
+
+        System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, "d:\\");
+
         // 1. 构造目标对象
         Service target = new Service();
 
